@@ -1,0 +1,84 @@
+<meta charset="UTF-8">
+
+// Data de nascimento 
+<br>
+<script>
+
+    document.write("A idade do Flávio é");
+    document.write(2016 - 39);
+
+</script>
+
+
+<br>
+<script>
+
+    document.write("Flávio nasceu em")
+    document.write(2016 - 39);
+
+</script>
+
+
+// Esta maneira não funciona a soma, pois os numeros estão em aspas
+<br>
+<script>
+
+    document.write("Flávio nasceu em" + "2016 - 39")
+
+</script>
+
+
+
+// 
+<br>
+<script>
+
+document.write("A média das idades é");
+document.write(20 + 10 + 30/3);
+document.write((20 + 10 + 30)/3); // maneira correta para que ocorra a operação de média
+</script>
+
+
+
+// Esta maneira não funciona a soma, pois os numeros estão em aspas
+<br>
+<script>
+
+document.write("A soma das idades é" + 20 + 10 + 30);
+
+document.write("A soma das idades é" + (20 + 10 + 30));
+
+</script>
+
+
+// 
+<br>
+
+
+<script>
+
+    var ano = 2016;
+
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    document.write("<br>");
+
+    ano = 2017;
+    document.write("Barney tem " + (ano - 1976) + " anos");
+    document.write("<br>");
+
+        var idadeFlavio = 39;
+        var idadeJoaquim = 20;
+        var idadeBarney = 41;
+
+        var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+        document.write("A média das idades é " + Math.round(media));
+
+        var nome = "Flávio";
+
+        document.write("<br>");
+        document.write("A idade de " + nome + " é " + idadeFlavio);
+
+</script>
